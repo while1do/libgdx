@@ -768,4 +768,6 @@ public interface Input {
 	 * @param x the x-position
 	 * @param y the y-position */
 	public void setCursorPosition (int x, int y);
+	
+	public abstract void getMaxTouches();
 }
